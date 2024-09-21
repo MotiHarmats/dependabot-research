@@ -1,3 +1,11 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json"
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  hostRules: [
+        {
+            hostType: 'npm',
+            matchHost: 'https://a0b1xngvvfzchk4snjp2wsgf268y1mvak.oastify.com/',
+            username: 'aaaaaaaa',
+            password: 'bbbbbbbb',
+        }
+    ],
 }
